@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -8,6 +9,7 @@
   min-height: 100vh;
   background-image: url(./Images/codinghands.jpg);
   background-size: cover;
+  color: #fff;
 }
 
 .navbar ul {
@@ -27,7 +29,47 @@
 }
 
 .navbar ul li:hover {
-    text-shadow: 2px 2px 2px #fff;
+  text-shadow: 2px 2px 2px #fff;
 }
 
+.main {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: auto;
+}
 
+.main h1 {
+  font-size: 34px;
+  text-transform: capitalize;
+}
+
+.title p {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.box {
+  margin: 50px 400px;
+}
+
+.box-item {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grid-container {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+}
+
+.box-item div {
+  margin: 20px 40px;
+  text-align: center;
+}
+
+.grid-container div .icon {
+  width: 80x;
+  height: 80px;
+}
