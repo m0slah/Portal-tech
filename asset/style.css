@@ -47,24 +47,6 @@
   height: 50px;
 }
 
-.footer {
-  display: flex;
-  margin-top: 70px;
-}
-
-.footer ul {
-  list-style-type: none;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.footer ul .icon {
-  width: 25px;
-  margin: 0px 20px;
-}
-
-
 @media screen and (max-width: 600px) {
   footer{
       position: static;
