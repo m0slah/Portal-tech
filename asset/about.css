@@ -1,0 +1,62 @@
+.wrapper {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 60px;
+
+  display: inline-flex;
+}
+
+.wrapper div {
+  flex: 1;
+  margin: 30px 10px;
+  text-align: center;
+  padding: 15px;
+
+  height: 200px;
+}
+
+.wrapper .box1 h1 {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.wrapper .box1 p {
+  font-size: 14px;  
+}
+
+.wrapper .box2 {
+  background-color: none;
+  width: 100px;
+}
+
+.icons{
+  display: inline-flex;
+}
+
+.box2 .icon{
+  width: 20px;
+  height: 20px;
+}
+
+.box2 div{
+  margin: -10px;
+}
+
+.box2 div img{
+  width: 30px;
+  height: 30px;
+}
+
+.box2 > div {
+  display: inline-flex;
+
+  margin-top: 5px;
+}
+
+.box2 > div p {
+  margin-top: 5px;
+}
+
+.box2 p{
+  font-size: 12px;
+}
